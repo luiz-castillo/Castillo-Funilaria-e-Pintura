@@ -92,7 +92,7 @@ export function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3, ease: 'easeOut' }}
-            className="md:hidden fixed inset-x-0 top-20 md:top-24 bottom-0 z-10 bg-black-950/80 backdrop-blur-xl"
+            className="md:hidden fixed inset-x-0 top-52 bottom-0 z-50 bg-black/30 backdrop-blur-2xl"
           >
             <motion.div
               initial={{ y: -16, opacity: 0 }}
