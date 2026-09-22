@@ -1,33 +1,35 @@
 import { SectionHeading } from '../../components/SectionHeading'
 import { BeforeAfterSlider } from '../../components/BeforeAfterSlider'
 import type { BeforeAfterItem } from '../../types/service'
-import antesReal from '../../assets/gallery/antes-01.jpeg'
-import depoisReal from '../../assets/gallery/depois-01.jpeg'
+import antesFarol from '../assets/gallery/IMG-20260814-WA0011.jpg'
+import depoisFarol from '../assets/gallery/IMG-20260814-WA0010.jpg'
+import antesParachoque from '../assets/gallery/IMG-20260820-WA0004.jpg'
+import depoisParachoque from '../assets/gallery/IMG-20260820-WA0000.jpg'
 
 // O primeiro card já usa fotos reais enviadas pela Castillo.
 // Os demais seguem como placeholder até novas fotos serem enviadas.
 const PLACEHOLDER_PROJECTS: BeforeAfterItem[] = [
   {
     id: 'p1',
-    vehicle: 'Toyota Yaris XL',
-    serviceType: 'Funilaria + Pintura Localizada',
-    description: 'Reparo do para-choque traseiro com pintura localizada e acabamento sem transição visível.',
-    before: antesReal,
-    after: depoisReal,
+    vehicle: 'Ford KA',
+    serviceType: 'Polimento dos Faróis + Recuperação e Pintura das portas do lado direito',
+    description: 'Revitalização dos Faróis e recuperação das portas, com pintura.',
+    before: antesFarol,
+    after: depoisFarol,
   },
   {
     id: 'p2',
-    vehicle: 'SUV compacto',
-    serviceType: 'Recuperação de Colisão',
-    description: 'Recuperação estrutural após colisão frontal, com pintura completa do capô e para-choque.',
-    before: '',
-    after: '',
+    vehicle: 'Toyota Corolla',
+    serviceType: 'Troca do Para-choque',
+    description: 'Troca do Para-choque após colisão frontal, com pintura completa do para-choque.',
+    before: 'antesParachoque',
+    after: 'depoisParachoque',
   },
   {
     id: 'p3',
-    vehicle: 'Hatch',
-    serviceType: 'Polimento + Faróis',
-    description: 'Remoção de riscos na pintura e polimento dos faróis para recuperar transparência.',
+    vehicle: 'Em breve',
+    serviceType: 'Em breve',
+    description: 'Em breve',
     before: '',
     after: '',
   },
