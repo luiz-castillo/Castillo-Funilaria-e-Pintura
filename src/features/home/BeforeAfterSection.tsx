@@ -22,8 +22,8 @@ const PLACEHOLDER_PROJECTS: BeforeAfterItem[] = [
     vehicle: 'Toyota Corolla',
     serviceType: 'Troca do Para-choque',
     description: 'Troca do Para-choque após colisão frontal, com pintura completa do para-choque.',
-    before: 'antesParachoque',
-    after: 'depoisParachoque',
+    before: antesParachoque,
+    after: depoisParachoque,
   },
   {
     id: 'p3',
