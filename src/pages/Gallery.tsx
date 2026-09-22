@@ -7,12 +7,12 @@ import antesParachoque from '../assets/gallery/IMG-20260820-WA0004.jpg'
 import depoisParachoque from '../assets/gallery/IMG-20260820-WA0000.jpg'
 
 const PROJECTS = [
-  { id: 'g1', vehicle: 'Toyota Yaris XL', serviceType: 'Funilaria + Pintura Localizada', description: 'Reparo do para-choque traseiro com pintura sem transição visível.', before: antesFarol, after: depoisFarol },
-  { id: 'g2', vehicle: 'SUV compacto', serviceType: 'Recuperação de Colisão', description: 'Recuperação estrutural após colisão frontal.', before: antesParachoque, after: depoisParachoque },
-  { id: 'g3', vehicle: 'Hatch', serviceType: 'Polimento + Faróis', description: 'Remoção de riscos e polimento de faróis.' },
-  { id: 'g4', vehicle: 'Picape', serviceType: 'Pintura Completa', description: 'Repintura total com cor idêntica à original de fábrica.' },
-  { id: 'g5', vehicle: 'Sedã premium', serviceType: 'Revitalização de Para-choque', description: 'Reparo de para-choque trincado e revitalização do acabamento.' },
-  { id: 'g6', vehicle: 'Hatch premium', serviceType: 'Substituição de Peças', description: 'Troca de componentes com ajuste e acabamento de fábrica.' },
+  { id: 'g1', vehicle: 'Ford KA', serviceType: 'Polimento dos Faróis+ Recuperação e Pintura das portas do lado direito', description: 'Revitalização dos Faróis e Recuperação das portas do lado direito.', before: antesFarol, after: depoisFarol },
+  { id: 'g2', vehicle: 'Toyota Corolla', serviceType: 'Troca do Para-choque', description: 'Troca do Para-choque após colisão frontal, com pintura completa do Para-choque.', before: antesParachoque, after: depoisParachoque },
+  { id: 'g3', vehicle: 'Em Breve', serviceType: 'Em Breve', description: 'Em Breve' },
+  { id: 'g4', vehicle: 'Em Breve', serviceType: 'Em Breve', description: 'Em Breve.' },
+  { id: 'g5', vehicle: 'Em Breve', serviceType: 'Em Breve', description: 'Em Breve.' },
+  { id: 'g6', vehicle: 'Em Breve', serviceType: 'Em Breve', description: 'Em Breve.' },
 ]
 
 export function Gallery() {
