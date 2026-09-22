@@ -4,7 +4,7 @@ import type { BeforeAfterItem } from '../../types/service'
 import antesFarol from '../assets/gallery/IMG-20260814-WA0011.jpg'
 import depoisFarol from '../assets/gallery/IMG-20260814-WA0010.jpg'
 import antesParachoque from '../assets/gallery/IMG-20260820-WA0004.jpg'
-import depoisParachoque from '../assets/gallery/IMG-20260820-WA0000.jpg'
+import depoisParachoque from '../../assets/gallery/IMG-20260820-WA0000.jpg'
 
 // O primeiro card já usa fotos reais enviadas pela Castillo.
 // Os demais seguem como placeholder até novas fotos serem enviadas.
