@@ -5,8 +5,8 @@ import antesFarol from '../assets/gallery/IMG-20260814-WA0011.jpg'
 import depoisFarol from '../assets/gallery/IMG-20260814-WA0010.jpg'
 import antesParachoque from '../assets/gallery/IMG-20260820-WA0004.jpg'
 import depoisParachoque from '../assets/gallery/IMG-20260820-WA0000.jpg'
-import antesCapô from '../../assets/gallery/file_0000000075b0820eac5901503948a166.png'
-import depoisCapô from '../../assets/gallery/IMG-20260925-WA0014.jpg'
+import antesCapô from '../assets/gallery/file_0000000075b0820eac5901503948a166.png'
+import depoisCapô from '../assets/gallery/IMG-20260925-WA0014.jpg'
 
 const PROJECTS = [
   { id: 'g1', vehicle: 'Ford KA', serviceType: 'Polimento dos Faróis+ Recuperação e Pintura das portas do lado direito', description: 'Revitalização dos Faróis e Recuperação das portas do lado direito.', before: antesFarol, after: depoisFarol },
