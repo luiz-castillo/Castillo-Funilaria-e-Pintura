@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom'
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
 import { WhatsAppButton } from '../components/WhatsAppButton'
+import { AnalyticsTracker } from '../components/AnalyticsTracker'
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation()
@@ -19,6 +20,7 @@ export function MainLayout() {
   return (
     <div className="flex min-h-screen flex-col">
       <ScrollToTop />
+      <AnalyticsTracker />
       <Navbar />
       <main className="flex-1">
         <Outlet />

@@ -10,6 +10,20 @@
       name="description"
       content="Funilaria, pintura automotiva e recuperação de colisões em São Paulo - SP. Quase 40 anos de experiência, equipamentos Mirka e Sata, garantia em cada serviço."
     />
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DRXR7LW98L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      // send_page_view is disabled here because this is a single-page app:
+      // page views are sent manually on each route change (see src/lib/analytics.ts),
+      // otherwise only the very first page load would ever be tracked.
+      gtag('config', 'G-DRXR7LW98L', { send_page_view: false });
+    </script>
   </head>
   <body>
     <div id="root"></div>
