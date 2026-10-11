@@ -26,7 +26,7 @@ export function HeroContent() {
 
       <h1 className="text-[32px] leading-[1.1] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-extrabold text-white text-balance">
         Devolvemos a beleza do seu carro com precisão de quem faz isso há{' '}
-        <span className="text-gradient-orange">quase 40 anos</span>.
+        <span className="text-gradient-orange">40 anos</span>.
       </h1>
 
       <p className="mt-6 text-base md:text-lg text-gray-light max-w-md">
