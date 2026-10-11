@@ -15,7 +15,7 @@ export function Home() {
     <>
       <Seo
         title="Castillo Reparação Automotiva | Funilaria e Pintura Premium em São Paulo"
-        description="Funilaria, pintura automotiva e recuperação de colisões em São Paulo - SP. Quase 40 anos de experiência, equipamentos Mirka e Sata, garantia em cada serviço."
+        description="Funilaria, pintura automotiva e recuperação de colisões em São Paulo - SP. 40 anos de experiência, equipamentos Mirka e Sata, garantia em cada serviço."
       />
       <Hero />
       <StatsBar />
