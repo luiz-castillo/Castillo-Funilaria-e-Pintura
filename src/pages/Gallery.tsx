@@ -7,12 +7,14 @@ import antesParachoque from '../assets/gallery/IMG-20260820-WA0004.jpg'
 import depoisParachoque from '../assets/gallery/IMG-20260820-WA0000.jpg'
 import antesCapô from '../assets/gallery/file_0000000075b0820eac5901503948a166.png'
 import depoisCapô from '../assets/gallery/IMG-20260925-WA0014.jpg'
+import antesParalama from '../../assets/gallery/Audi preto brilhante em garagem industrial (1).png'
+import depoisParalama from '../../assets/gallery/Audi preto brilhante em garagem industrial.png'
 
 const PROJECTS = [
-  { id: 'g1', vehicle: 'Ford KA', serviceType: 'Polimento dos Faróis+ Recuperação e Pintura das portas do lado direito', description: 'Revitalização dos Faróis e Recuperação das portas do lado direito.', before: antesFarol, after: depoisFarol },
+  { id: 'g1', vehicle: 'Ford KA', serviceType: 'Polimento dos Faróis', description: 'Revitalização dos Faróis.', before: antesFarol, after: depoisFarol },
   { id: 'g2', vehicle: 'Toyota Corolla', serviceType: 'Troca do Para-choque', description: 'Troca do Para-choque após colisão frontal, com pintura completa do Para-choque.', before: antesParachoque, after: depoisParachoque },
-  { id: 'g3', vehicle: 'Nissan Tiida', serviceType: 'Revitalização do Capô', description: 'Revitalização do Capô, lixamento até lata, preparação com primer e finalização com a pintura e polimento.', before: antesCapô, after: depoisCapô },
-  { id: 'g4', vehicle: 'Em Breve', serviceType: 'Em Breve', description: 'Em Breve.' },
+  { id: 'g3', vehicle: 'Nissan Tiida', serviceType: 'Revitalização do Capô', description: 'Decapagem do Capô, preparação com wash primer, e finalização com a pintura e polimento.', before: antesCapô, after: depoisCapô },
+  { id: 'g4', vehicle: 'Audi A3', serviceType: 'Recuperação do Paralama', description: 'Recuperação do Paralama e finalização com pintura e polimento.', before: antesParalama, after: depoisParalama },
   { id: 'g5', vehicle: 'Em Breve', serviceType: 'Em Breve', description: 'Em Breve.' },
   { id: 'g6', vehicle: 'Em Breve', serviceType: 'Em Breve', description: 'Em Breve.' },
 ]
