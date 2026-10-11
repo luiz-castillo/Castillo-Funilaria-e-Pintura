@@ -8,8 +8,7 @@ import depoisParachoque from '../../assets/gallery/IMG-20260820-WA0000.jpg'
 import antesCapô from '../../assets/gallery/file_0000000075b0820eac5901503948a166.png'
 import depoisCapô from '../../assets/gallery/IMG-20260925-WA0014.jpg'
 
-// O primeiro card já usa fotos reais enviadas pela Castillo.
-// Os demais seguem como placeholder até novas fotos serem enviadas.
+
 const PLACEHOLDER_PROJECTS: BeforeAfterItem[] = [
   {
     id: 'p1',
@@ -31,7 +30,7 @@ const PLACEHOLDER_PROJECTS: BeforeAfterItem[] = [
     id: 'p3',
     vehicle: 'Nissan Tiida',
     serviceType: 'Revitalização do Capô',
-    description: 'Revitalização do Capô, lixamento até lata, preparação com primer e finalização com a pintura e polimento.',
+    description: 'Decapagem do Capô, preparação com wash primer, aplicação de primer e finalização com a pintura.',
     before: antesCapô,
     after: depoisCapô,
   },
