@@ -30,7 +30,7 @@ const PLACEHOLDER_PROJECTS: BeforeAfterItem[] = [
     id: 'p3',
     vehicle: 'Nissan Tiida',
     serviceType: 'Revitalização do Capô',
-    description: 'Decapagem do Capô, preparação com wash primer, aplicação de primer e finalização com a pintura.',
+    description: 'Decapagem do Capô, preparação com wash primer, e finalização com a pintura e polimento.',
     before: antesCapô,
     after: depoisCapô,
   },
